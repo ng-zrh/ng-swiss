@@ -100,10 +100,6 @@
     <section id="main-container" class="main-container">
         <div class="container">
 
-            <div id="map" class="map"></div>
-
-            <div class="gap-60"></div>
-
             <div class="row">
 
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -145,7 +141,7 @@
 
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <h3>Contact Now</h3>
-                    <form id="contact-form" class="contact-form" action="contact-form.php" method="post">
+                    <form id="contact-form" class="contact-form" name="contact" data-netlify-recaptcha="true" data-netlify="true" method="post">
                         <div class="error-container"></div>
                         <div class="row">
                             <div class="col-md-12">
@@ -161,18 +157,12 @@
                                            type="email" required>
                                 </div>
                             </div>
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <input class="form-control form-control-subject" placeholder="Subject"
-                                           name="subject" id="subject" required>
-
-                                </div>
-                            </div>
                         </div>
                         <div class="form-group">
                             <textarea class="form-control form-control-message" name="message" id="message"
                                       placeholder="Message" rows="8" required></textarea>
                         </div>
+                        <div data-netlify-recaptcha="true"></div>
                         <div class="text-right"><br>
                             <button class="btn btn-primary btn-full" type="submit"><i class="fa fa-paper-plane-o"></i>
                                 Send Message
@@ -199,9 +189,6 @@
                         </ul>
                     </div><!-- Footer menu end -->
 
-                    <div class="footer-logo">
-                        <img src="images/footer-logo.png" alt="footer logo"/>
-                    </div>
 
 
                     <div class="footer-social">
@@ -219,41 +206,19 @@
 
                     <div class="copyright-info">
                         <span>Made with love from <a href="https://angularzurich.dev/"
-                                                     target="_blank">Angular Zürich</a>.</span>
+                                                     target="angularZurich">Angular Zürich</a>.</span>
                     </div><!-- Copyright info end -->
 
                 </div><!-- Content col end -->
             </div><!-- Content row end -->
         </div><!-- Container end -->
-        <div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top affix">
-            <button class="btn btn-primary" title="Back to Top">
-                <i class="fa fa-angle-up"></i>
-            </button>
-        </div>
 
     </footer><!-- Footer end -->
 
 
-    <!-- Javascript Files
-    ================================================== -->
-
-    <!-- initialize jQuery Library -->
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <!-- Bootstrap jQuery -->
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <!-- Counter -->
-    <script type="text/javascript" src="js/jquery.counterup.min.js"></script>
-    <!-- Waypoints -->
-    <script type="text/javascript" src="js/waypoints.min.js"></script>
-
-    <!-- Smoothscroll -->
-    <script type="text/javascript" src="js/smoothscroll.js"></script>
-    <!-- Google Map API Key-->
-    <script type="text/javascript"
-            src="//maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"></script>
-    <!-- Google Map Plugin-->
-    <script type="text/javascript" src="js/gmap3.js"></script>
-    <!-- Template custom -->
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-4.3.1.bundle.min.js"></script>
+    <script type="text/javascript" src="js/moment.min.js"></script>
     <script type="text/javascript" src="js/custom.js"></script>
 
 </div><!-- Body inner end -->

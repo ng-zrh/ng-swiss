@@ -58,15 +58,6 @@
     	float: none;
 	}
 
-	#back-to-top.affix {
-    	bottom: 35px;
-	}
-
-	#back-to-top {
-    	right: 15px;
-   }
-
-
 }
 
 /* Small Devices, Tablets */
@@ -777,14 +768,6 @@
 
 	.footer-social ul li{
 		margin: 15px;
-	}
-
-	#back-to-top.affix {
-	   bottom: 80px;
-	}
-
-	#back-to-top{
-		right: 10px;
 	}
 
 	.copyright-info{

@@ -424,11 +424,9 @@ img.pull-right {
     padding: 6px 12px;
     height: 34px;
     background: none;
-    color: #fff;
     font-size: 12px;
     border-radius: 0;
     border: 0;
-    padding-left: 0;
     border-radius: 0;
     border-bottom: 1px solid #dedede;
     border-bottom: 1px solid rgba(0, 0, 0, 0.15);
@@ -849,11 +847,11 @@ ul.navbar-nav > li:hover > a{
 
 .header-ticket .ticket-btn {
     color: #fff;
-    background: #6859de;
+    background: #d52b1e;
 }
 .header-ticket .ticket-btn:hover,
 .header-ticket .ticket-btn:focus {
-    background: #d52b1e;
+    background: #6859de;
     color: #fff;
 }
 /* Banner area
@@ -1355,7 +1353,7 @@ ul.navbar-nav > li:hover > a{
     background: -webkit-linear-gradient(145deg, #8BC34A 0%,#689F38 100%);
     background: linear-gradient(145deg, #8BC34A 0%,#689F38 100%);
 }
-.countdown.bg-style > div.counter-hour .smalltext {
+.countdown.bg-style > div.counter-minute .smalltext {
     color: #8BC34A;
 }
 
@@ -2343,29 +2341,6 @@ h4.panel-title a.collapsed:before {
 
 .copyright-info {
     margin: 40px 0 0;
-}
-
-#back-to-top {
-    right: 40px;
-    top: auto;
-    z-index: 10;
-    -webkit-backface-visibility: hidden;
-}
-#back-to-top.affix {
-    bottom: 30px;
-}
-#back-to-top .btn.btn-primary {
-    width: 48px;
-    height: 48px;
-    line-height: 44px;
-    border-radius: 100%;
-    font-weight: 700;
-    font-size: 20px;
-    padding: 0;
-}
-#back-to-top .btn.btn-primary:hover {
-    color: #fff;
-    background: #000;
 }
 
 
