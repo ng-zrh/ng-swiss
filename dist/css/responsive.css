@@ -571,10 +571,6 @@
 	
 	/* Banner & Counter */
 
-	.banner-content-wrap:before{
-		top: -35px;
-	}
-
 	.countdown div > span{
 		font-size: 48px;
 	}
@@ -841,10 +837,6 @@
 
 	.banner-btn .btn-border{
 		margin-top: 10px;
-	}
-
-	.banner-content-wrap:before{
-		border: 0;
 	}
 
 }
