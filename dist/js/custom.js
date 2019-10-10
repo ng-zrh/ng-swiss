@@ -1,3 +1,4 @@
+"use strict";
 
 function updateTime() {
     const fut = new moment('2020-12-31');
@@ -14,7 +15,8 @@ function updateTime() {
     document.querySelector('.minutes').innerText = minutes;
     document.querySelector('.seconds').innerText = seconds;
 
-    //console.log( `${days} - ${hours} - ${minutes} - ${seconds} `);
 }
 
-setInterval(updateTime, 1000);
+if(document.querySelector('.countdown')) {
+    setInterval(updateTime, 1000);
+}
