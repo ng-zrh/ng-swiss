@@ -648,11 +648,13 @@ a[href^=tel] {
 /*-- Logo --*/
 
 .logo {
-    padding: 20px 0;
+    padding: 17px 0;
 }
 
 .logo a {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    font-family: 'Fredoka One', cursive;
+    color: #000000;
 }
 
 .logo img{
@@ -737,8 +739,8 @@ ul.navbar-nav > li.active > a {
 }
 
 ul.navbar-nav > li:hover > a{
-    background: #d52b1e;
-    color: #fff;
+    background: #fff;
+    color: #d52b1e;
 }
 
 
@@ -846,13 +848,13 @@ ul.navbar-nav > li:hover > a{
 /* Get a quote */
 
 .header-ticket .ticket-btn {
-    color: #fff;
-    background: #d52b1e;
+    padding: 12px 20px 10px 20px;
+    color: #fff !important;
+    background: #d52b1e !important;
 }
 .header-ticket .ticket-btn:hover,
 .header-ticket .ticket-btn:focus {
-    background: #6859de;
-    color: #fff;
+    background: #a6271c !important;
 }
 /* Banner area
 ================================================== */
@@ -862,7 +864,7 @@ ul.navbar-nav > li:hover > a{
 }
 
 .banner-item {
-    min-height: 800px;
+    min-height: 700px;
     color: #fff;
     background-attachment: fixed;
     background-position: 50% 50%;
@@ -875,7 +877,7 @@ ul.navbar-nav > li:hover > a{
 
 .banner-content,
 .banner-reg-form {
-    padding: 280px 0;
+    padding: 240px 0 160px 0;
     width: 100%;
     vertical-align: middle;
     position: relative;
@@ -1311,43 +1313,43 @@ ul.navbar-nav > li:hover > a{
 }
 
 .countdown.bg-style > div.counter-day .days {
-    background: #F44336;
-    background: -moz-linear-gradient(145deg, #F44336 0%,#D84315 100%);
-    background: -webkit-linear-gradient(145deg, #F44336 0%,#D84315 100%);
-    background: linear-gradient(145deg, #F44336 0%,#D84315 100%);
+    background: #D52B1E;
+    background: -moz-linear-gradient(145deg, #D52B1E 0%,#D52B1E 100%);
+    background: -webkit-linear-gradient(145deg, #D52B1E 0%,#D52B1E 100%);
+    background: linear-gradient(145deg, #D52B1E 0%,#D52B1E 100%);
 }
 .countdown.bg-style > div.counter-day .smalltext {
-    color: #F44336;
+    color: #D52B1E;
 }
 
 .countdown.bg-style > div.counter-hour .hours {
-    background: #03A9F4;
-    background: -moz-linear-gradient(145deg, #03A9F4 0%,#1E88E5 100%);
-    background: -webkit-linear-gradient(145deg, #03A9F4 0%,#1E88E5 100%);
-    background: linear-gradient(145deg, #03A9F4 0%,#1E88E5 100%);
+    background: #E44D42;
+    background: -moz-linear-gradient(145deg, #E44D42 0%, #E44D42 100%);
+    background: -webkit-linear-gradient(145deg, #E44D42 0%,#E44D42 100%);
+    background: linear-gradient(145deg, #E44D42 0%,#E44D42 100%);
 }
 .countdown.bg-style > div.counter-hour .smalltext {
-    color: #03A9F4;
+    color: #E44D42;
 }
 
 .countdown.bg-style > div.counter-minute .minutes {
-    background: #8BC34A;
-    background: -moz-linear-gradient(145deg, #8BC34A 0%,#689F38 100%);
-    background: -webkit-linear-gradient(145deg, #8BC34A 0%,#689F38 100%);
-    background: linear-gradient(145deg, #8BC34A 0%,#689F38 100%);
+    background: #EA776F;
+    background: -moz-linear-gradient(145deg, #EA776F 0%,#EA776F 100%);
+    background: -webkit-linear-gradient(145deg, #EA776F 0%,#EA776F 100%);
+    background: linear-gradient(145deg, #EA776F 0%,#EA776F 100%);
 }
 .countdown.bg-style > div.counter-minute .smalltext {
-    color: #8BC34A;
+    color: #EA776F;
 }
 
 .countdown.bg-style > div.counter-second .seconds {
-    background: #FFC107;
-    background: -moz-linear-gradient(145deg, #FFC107 0%,#F57F17 100%);
-    background: -webkit-linear-gradient(145deg, #FFC107 0%,#F57F17 100%);
-    background: linear-gradient(145deg, #FFC107 0%,#F57F17 100%);
+    background: #EF9992;
+    background: -moz-linear-gradient(145deg, #EF9992 0%,#EF9992 100%);
+    background: -webkit-linear-gradient(145deg, #EF9992 0%,#EF9992 100%);
+    background: linear-gradient(145deg, #EF9992 0%,#EF9992 100%);
 }
 .countdown.bg-style > div.counter-second .smalltext {
-    color: #FFC107;
+    color: #EF9992;
 }
 
 
@@ -2013,11 +2015,11 @@ ul.navbar-nav > li:hover > a{
 
 .ts-pricing-box.pricing-featured{
     color: #fff;
-    background: -moz-linear-gradient(145deg,rgba(255,7,99,0.65) 5%,rgba(104,89,222,0.65) 100%);
-    background: -webkit-linear-gradient(145deg,rgba(255,7,99,0.65) 5%,rgba(104,89,222,0.65) 100%);
-    background: -o-linear-gradient(145deg,rgba(255,7,99,0.65) 5%,rgba(104,89,222,0.65) 100%);
-    background: -ms-linear-gradient(145deg,rgba(255,7,99,0.65) 5%,rgba(104,89,222,0.65) 100%);
-    background: linear-gradient(145deg,#d52b1e 5%,#6859de 100%)
+    background: -moz-linear-gradient(145deg,#d52b1e 5%,#a12318 100%);
+    background: -webkit-linear-gradient(145deg,#d52b1e 5%,#a12318 100%);
+    background: -o-linear-gradient(145deg,#d52b1e 5%,#a12318 100%);
+    background: -ms-linear-gradient(145deg,#d52b1e 5%,#a12318 100%);
+    background: linear-gradient(145deg,#d52b1e 5%, #a12318 100%)
 }
 
 .ts-pricing-box.pricing-featured h2, 
@@ -2346,10 +2348,11 @@ h4.panel-title a.collapsed:before {
     top: 50%;
     width: 100%;
     height: 100%;
-    margin-top: -40px;
+    margin-top: -15px;
 }
 .page-banner-title h2 {
-    color: #fff;
+    color: #ffffff;
+    font-family: 'Fredoka One', cursive;;
     font-size: 60px;
 }
 .page-banner-title .breadcrumb {

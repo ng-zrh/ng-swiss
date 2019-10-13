@@ -1,7 +1,7 @@
 "use strict";
 
 function updateTime() {
-    const fut = new moment('2020-12-31');
+    const fut = new moment('2020-06-01');
     const now = new moment();
     const duration = moment.duration(fut.diff(now));
 
@@ -18,5 +18,6 @@ function updateTime() {
 }
 
 if(document.querySelector('.countdown')) {
+    updateTime();
     setInterval(updateTime, 1000);
 }
