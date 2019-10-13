@@ -2240,6 +2240,13 @@ h4.panel-title a.collapsed:before {
 
 .footer-logo{
     margin: 30px 0;
+    font-size: 32px;
+    font-family: 'Fredoka One', cursive;
+    color: #fff;
+}
+
+.footer-logo img {
+    height: 64px;
 }
 
 /* Footer social */
@@ -2326,6 +2333,14 @@ h4.panel-title a.collapsed:before {
 
 .copyright-info {
     margin: 40px 0 0;
+}
+
+.copyright-info a {
+    color: #fff;
+}
+
+.copyright-info a:hover {
+    color: #d52b1e;
 }
 
 
